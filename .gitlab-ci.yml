@@ -10,6 +10,7 @@ pages:
   - npm run build
   - mv public/ oldpublic/
   - mv build/ public/
+  - ls public
   artifacts:
     paths:
     - public

@@ -29,10 +29,10 @@ class App extends Component {
           {content.posts.map((post, i) => (
             <article key={i}>
               <div className="bgContainer">
-                <img className="bg" src={`/imgs/${post.art}`} alt="cover1" />
+                <img className="bg" src={`./imgs/${post.art}`} alt="cover1" />
               </div>
               <p className="tiny">.01</p>
-              <img className="cover" src={`/imgs/${post.art}`} alt="cover1" />
+              <img className="cover" src={`./imgs/${post.art}`} alt="cover1" />
               <footer>
                 <div>
                   <h3>{post.subtitle}</h3>

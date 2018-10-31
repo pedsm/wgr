@@ -26,8 +26,17 @@ header img {
   height: var(--size);
 }
 
+header > a > i {
+  padding:10px;
+}
+
+header > a > i:hover {
+  color: var(--red);
+  animation-duration: 0.1s;
+}
+
 article {
-  margin-left: 420px;
+  /* margin-left: 420px; */
   max-height: 100vh;
   height: 100vh;
   text-align: center;
@@ -47,6 +56,8 @@ article img {
 }
 
 footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   text-align: left;
   position: absolute;
   bottom: 0;
@@ -56,10 +67,31 @@ footer {
   width:100%;
 }
 
+.iconSession {
+  text-align: right;
+}
+
+.iconSession > a > i {
+  margin: 10px;
+  position: relative;
+  top: 60px;
+  cursor: pointer;
+}
+
+.iconSession > a > i:hover {
+  color: var(--red);
+  transition-duration: 0.1s;
+}
+
+.cover {
+  position: relative;
+  right: 40px;
+}
+
 .bg {
   z-index: -1;
   filter: blur(10px);
-  width: calc(100vw - 420px);
+  width: 100vw;
   height: 100vh;
   margin: 0;
   /*These have to be dynamic*/
@@ -72,4 +104,13 @@ footer {
   overflow: hidden;
   z-index: -1;
   position: absolute;
+  bottom: 0;
+}
+
+#particles-js {
+  position:absolute;
+  z-index: -10;
+  height: 100vh;
+}
+#particles-js > canvas {
 }

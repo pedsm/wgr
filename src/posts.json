@@ -1,0 +1,30 @@
+{
+    "header": {
+        "links": [
+            { "icon": "spotify", "link": "https://open.spotify.com/artist/4e9gZuUhClcus7lxbcrqFs?si=zYAfn3lTQtCEqe90CzmdOQ" },
+            { "icon": "soundcloud", "link": "https://soundcloud.com/arentyoucurious" }
+        ]
+    },
+    "posts": [
+        {
+            "title": "Not about kendrick lamar",
+            "subtitle": "Anaesthesia W.G.R.",
+            "art": "album_art1.png",
+            "links": [
+                { "icon": "spotify", "link": "https://open.spotify.com/track/0fmisr2vtgykwbm5qpf074?si=zypatislrlqcrswe0rjvag" },
+                { "icon": "soundcloud", "link": "https://soundcloud.com/arentyoucurious/not-about-kendrick-lamar-prod-by-ismaol" },
+                { "icon": "itunes-note", "link": "#" }
+            ]
+        },
+        {
+            "title": "How hard is it",
+            "subtitle": "Anaesthesia W.G.R.",
+            "art": "album_art2.jpg",
+            "links": [
+                { "icon": "spotify", "link": "https://open.spotify.com/track/0fmisr2vtgykwbm5qpf074?si=zypatislrlqcrswe0rjvag" },
+                { "icon": "soundcloud", "link": "https://soundcloud.com/arentyoucurious/not-about-kendrick-lamar-prod-by-ismaol" },
+                { "icon": "itunes-note", "link": "#" }
+            ]
+        }
+    ]
+}
